@@ -1,0 +1,42 @@
+.error-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-primary);
+  padding: 2rem;
+}
+
+.error-content {
+  text-align: center;
+  max-width: 500px;
+}
+
+.error-icon {
+  font-size: 5rem;
+  color: var(--warning);
+  margin-bottom: 1rem;
+}
+
+.error-code {
+  font-size: 6rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, var(--warning), var(--danger));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.error-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.error-message {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
